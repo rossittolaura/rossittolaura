@@ -1,8 +1,8 @@
 <html>
   <head>
-    <title>Good morning, and in case I don't see ya: Good afternoon, good evening, and good night!</title>
+    <title>The Truman Show</title>
   </head>
   <body>
-    <h1>The Truman Show</h1>
+    <h1>Good morning, and in case I don't see ya: Good afternoon, good evening, and good night!</h1>
   </body>
 </html>
