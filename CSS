@@ -1,6 +1,6 @@
 <html>
 
-body {
+body { 
  body background-color: #bdc3c7;
 }
 
@@ -9,8 +9,37 @@ h1 {
 }
 
 h2 {
-  background-color: #FFA500;
+  background-color: orange;
 }
+
+li {
+background-color: #00BFFF;
+}
+
+p {
+background-color: yellow;
+  border: 3px red; 
+}
+
+input[type="text"], textarea {
+
+  background-color : #gray; 
+
+}
+
+<div>
+<p class="Hello"> background-colour: white</p>
+p {
+  font-size: 25px;
+}
+</div>
+
+<div>
+p {
+  font-size: 25px;
+}
+<p id="special"> 2px #00BFFF solid</p>
+</div>
 
 <head>
     <meta charset="UTF-8">
@@ -52,6 +81,11 @@ h2 {
     </div>
 
     <div>
+
+body { 
+ body background-color: white;
+font-size: 20px;
+}
         <h2>I am another awesome h2</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies euismod enim, vel hendrerit dui
@@ -66,6 +100,11 @@ h2 {
 
 
     <div>
+
+p {
+background-color: pink; 
+border: 5px white;
+}
         <h2>A less awesome h2</h2>
 
         <p>Proin suscipit augue maximus mauris laoreet, et tempor arcu tristique. Phasellus sit amet ultricies lectus.
