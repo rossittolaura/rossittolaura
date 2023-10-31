@@ -1,50 +1,59 @@
+<!DOCTYPE html>
 <html>
-
-body { 
- body background-color: #bdc3c7;
-}
-
-h1 {
-  background-color: #9b59b6;
-}
-
-h2 {
-  background-color: orange;
-}
-
-li {
-background-color: #00BFFF;
-}
-
-p {
-background-color: yellow;
-  border: 3px red; 
-}
-
-input[type="text"], textarea {
-
-  background-color : #gray; 
-
-}
-
-<div>
-<p class="Hello"> background-colour: white</p>
-p {
-  font-size: 25px;
-}
-</div>
-
-<div>
-p {
-  font-size: 25px;
-}
-<p id="special"> 2px #00BFFF solid</p>
-</div>
 
 <head>
     <meta charset="UTF-8">
     <title>Selectors Exercise</title>
     <link rel="stylesheet" type="text/css" href="selectors.css">
+    <style>
+        body {
+            background-color: #bdc3c7;
+        }
+
+        h1 {
+            background-color: #9b59b6;
+        }
+
+        h2 {
+            background-color: orange;
+        }
+
+        li {
+            background-color: #00BFFF;
+        }
+
+        p {
+            background-color: yellow;
+            border: 3px solid red;
+        }
+
+        input[type="text"],
+        textarea {
+            background-color: gray;
+        }
+
+        .Hello {
+            background-color: white;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        #special {
+            border: 2px solid #00BFFF;
+        }
+
+        div {
+            body background-color: white;
+            font-size: 20px;
+        }
+
+        p {
+            background-color: pink;
+            border: 5px solid white;
+        }
+    </style>
 </head>
 
 <body>
@@ -58,7 +67,6 @@ p {
 
         <h2>I am an awesome h2</h2>
 
-
         <p>Nam est odio, interdum vel risus sagittis, vehicula tincidunt odio. Integer non blandit ligula. Quisque
             vulputate pellentesque erat laoreet scelerisque. Maecenas augue ante, egestas eu ex tincidunt, porttitor
             varius ex. Praesent tellus est, efficitur a tincidunt ut, rutrum et erat. Fusce vehicula placerat tortor
@@ -67,25 +75,19 @@ p {
             lacus eget mauris malesuada tempor. Vestibulum a mi porta, interdum ipsum ac, volutpat magna. Integer id
             pretium nunc. Phasellus nec sapien in urna commodo bibendum eu a leo. Maecenas pharetra, sapien ac lobortis
             sagittis, turpis eros interdum lorem, sit amet suscipit felis neque vel sapien.</p>
-
     </div>
 
     <div>
         <h2>Things I need to do</h2>
 
         <ul>
-            <li>Walk Dog <input type="checkbox" checked> </li>
-            <li>Feed Dog <input type="checkbox" checked> </li>
+            <li>Walk Dog <input type="checkbox" checked></li>
+            <li>Feed Dog <input type="checkbox" checked></li>
             <li>Wash Dog <input type="checkbox"></li>
         </ul>
     </div>
 
     <div>
-
-body { 
- body background-color: white;
-font-size: 20px;
-}
         <h2>I am another awesome h2</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies euismod enim, vel hendrerit dui
@@ -98,13 +100,7 @@ font-size: 20px;
 
     <p>PARAGRAPH NOT INSIDE A DIV</p>
 
-
     <div>
-
-p {
-background-color: pink; 
-border: 5px white;
-}
         <h2>A less awesome h2</h2>
 
         <p>Proin suscipit augue maximus mauris laoreet, et tempor arcu tristique. Phasellus sit amet ultricies lectus.
@@ -117,13 +113,12 @@ border: 5px white;
 
         <p>One last paragraph here!</p>
 
-        <a href="http://www.facebook.com">I am a link to facebook</a>
-        <a href="http://www.facebook.com">I am another link to facebook</a>
+        <a href="http://www.facebook.com">I am a link to Facebook</a>
+        <a href="http://www.facebook.com">I am another link to Facebook</a>
         <br>
 
         <input type="text" name="name" /><label> Name</label><br />
         <input type="password" name="password" /><label> Password</label><br />
-
     </div>
 
     <p>PARAGRAPH NOT INSIDE A DIV</p>
