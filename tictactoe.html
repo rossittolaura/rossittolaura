@@ -2,22 +2,25 @@
 <html>
 <head>
     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
         table {
-            width: 300px; /* Total width of the table */
-            height: 300px; /* Total height of the table */
             border-collapse: collapse;
-            margin: 0 auto; /* Center align the table on the page */
         }
-
-        table, th, td {
-            border: 1px solid black; /* Border width is 1px */
-        }
-
-        th, td {
-            width: 100px; /* Width of each cell */
-            height: 100px; /* Height of each cell */
+        td {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
             text-align: center;
             font-size: 24px;
+        }
+        td:hover {
+            background-color: lightgray;
         }
     </style>
 </head>
